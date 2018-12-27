@@ -34,6 +34,11 @@ nav {
     grid-template-columns: .5fr 1fr 2fr 1fr .5fr;
     align-items: center;
     height: 7rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 550;
 }
 
 #logo {
@@ -93,7 +98,7 @@ nav {
 
 #hero-text {
     grid-column: 1/2;
-    margin-top: -5rem;
+    margin-top: 10rem;
     padding: 0 0 2rem 8rem;
 }
 
@@ -151,6 +156,7 @@ h1 span {
     top: 10rem;
     right: 5rem;
     height: 90%;
+    z-index: 10;
 }
 
 #phone-small {
