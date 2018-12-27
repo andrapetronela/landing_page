@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --heading-text: #222;
+    --normal-text: #4a4a4a;
+    --light-text: #6e6e6e;
+    --purple: #4776e6;
+}
+
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
 
@@ -125,12 +132,12 @@ h1 span {
 
 .cta-btn:hover {
     background: #fff;
-    color: #222;
+    color: var(--heading-text);
 }
 
 #cta-text-button {
     background: #fff;
-    color: #222;
+    color: var(--heading-text);
     margin: 0;
 }
 
@@ -155,3 +162,92 @@ h1 span {
     position: absolute;
     top: 7rem;
 }
+
+
+/*************** overview section *************/
+
+#overview-section {
+    color: var(--normal-text);
+    font-family: 'Roboto';
+}
+
+#overview-title {
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+}
+
+#overview-title h2 {
+    text-align: center;
+    color: var(--heading-text);
+    margin: 3rem 0 1rem;
+    font-family: 'Montserrat';
+}
+
+#line-image {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+#overview-title p {
+    text-align: center;
+}
+
+#icons-overview-section {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-card {
+    margin: 1rem;
+    text-align: center;
+    padding: 4rem 1rem;
+    transition: all .3s;
+}
+
+.icon-card:hover {
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.overview-icon {
+    font-size: 3rem;
+    color: var(--purple);
+}
+
+.overview-icon::after {
+    content: '';
+    height: 2px;
+    width: 50%;
+    background: var(--purple);
+    display: block;
+    margin: 1rem auto;
+}
+
+.icon-card h3 {
+    text-transform: uppercase;
+    margin: 1rem;
+    font-family: 'Montserrat';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
