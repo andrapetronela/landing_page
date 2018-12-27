@@ -39,6 +39,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 5550;
+    position: fixed;
 }
 
 #logo {
@@ -91,9 +92,9 @@ nav {
     font-weight: 600;
     border: 2px solid #fff;
     border-radius: 100px;
-    width: 50%;
-    padding: .5rem;
+    padding: .5rem 2rem;
     margin: auto;
+    color: #fff;
 }
 
 #hero-text {
@@ -153,10 +154,9 @@ h1 span {
 
 #hero-photos {
     position: absolute;
-    top: 10rem;
+    top: 7rem;
     right: 5rem;
     height: 90%;
-    z-index: 10;
 }
 
 #phone-small {
