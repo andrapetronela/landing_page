@@ -291,7 +291,7 @@ h1 span {
 .phone-text h3 {
     font-size: 1.3rem;
     font-weight: 600;
-    padding: 1.5rem;
+    padding: 1.5rem 0 0;
 }
 
 .phone-text h3::after {
@@ -306,6 +306,7 @@ h1 span {
 .phone-text p {
     max-width: 70%;
     margin: auto;
+    color: rgba(255, 255, 255, 0.77);
 }
 
 
