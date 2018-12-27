@@ -62,7 +62,6 @@ nav {
     transition: transform 5s;
 }
 
-#navbar a::after,
 #navbar a::after {
     content: '';
     height: 2px;
@@ -264,10 +263,50 @@ h1 span {
 
 #phones {
     display: flex;
+    width: 80vw;
+    margin: auto;
 }
 
+.phone-card {
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;  
+}
 
+#container-phone-text {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
 
+.phone-text {
+    text-align: center;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.phone-text h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+.phone-text h3::after {
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #fff;
+    display: block;
+    margin: 1rem auto;
+}
+
+.phone-text p {
+    max-width: 70%;
+    margin: auto;
+}
 
 
 
