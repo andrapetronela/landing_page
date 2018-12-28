@@ -307,12 +307,12 @@ h1 span {
 #nr2::after {
     content: '';
     height: 1px;
-    width: 350px;
+    width: 339px;
     display: block;
     background: #fff;
     position: absolute;
     top: calc(50% - 1px);
-/*    left: 3rem;*/
+    left: 3.2rem;
 }
 
 .phone-text h3::after {
