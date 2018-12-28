@@ -303,8 +303,7 @@ h1 span {
     position: relative;
 }
 
-#nr1::after,
-#nr2::after {
+#nr1::after {
     content: '';
     height: 1px;
     width: 339px;
@@ -315,6 +314,16 @@ h1 span {
     left: 3.2rem;
 }
 
+#nr2::after {
+    content: '';
+    height: 1px;
+    width: 345px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 3.2rem;
+}
 .phone-text h3::after {
     content: '';
     height: 2px;
