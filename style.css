@@ -275,7 +275,7 @@ h1 span {
 
 #container-phone-text {
     display: flex;
-    width: 80vw;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -286,6 +286,7 @@ h1 span {
     margin: 1rem;
     color: #fff;
     font-family: 'Roboto';
+    position: relative;
 }
 
 .phone-text h3 {
@@ -303,27 +304,25 @@ h1 span {
     position: relative;
 }
 
-#nr1::after {
-    content: '';
+.phone-text hr {
+    background: rgba(255, 255, 255, 0.77);
     height: 1px;
-    width: 339px;
-    display: block;
-    background: #fff;
-    position: absolute;
-    top: calc(50% - 1px);
-    left: 3.2rem;
 }
 
-#nr2::after {
-    content: '';
-    height: 1px;
-    width: 345px;
-    display: block;
-    background: #fff;
+#hr-left {
     position: absolute;
-    top: calc(50% - 1px);
-    left: 3.2rem;
+    right: 56%;
+    top: calc(20% - 1px);
+    width: 75%;
 }
+
+#hr-right {
+    position: absolute;
+    left: calc(56% - 3px);
+    top: calc(20% - 1px);
+    width: 77%;
+}
+
 .phone-text h3::after {
     content: '';
     height: 2px;
@@ -338,15 +337,3 @@ h1 span {
     margin: auto;
     color: rgba(255, 255, 255, 0.77);
 }
-
-
-
-
-
-
-
-
-
-
-
-
