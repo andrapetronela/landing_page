@@ -496,7 +496,7 @@ h1 span {
 }
 
 .team-img-container {
-    height: 80%
+    height: 70%;
 }
 
 .team-img-container img {
@@ -510,7 +510,6 @@ h1 span {
 .team-card h4 {
     text-transform: uppercase;
     color: var(--heading-text);
-    margin: 1rem 0;
 }
 
 .team-links {
@@ -521,7 +520,16 @@ h1 span {
     justify-content: center;
 }
 
-.team-links a {
+.team-links a:link,
+.team-links a:visited {
     color: #bfbebe;
     margin-right: 1rem;
 }
+
+.team-links a:hover,
+.team-links a:active {
+    color: #959595;
+}
+
+
+
