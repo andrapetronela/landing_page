@@ -514,11 +514,14 @@ h1 span {
 }
 
 .team-links {
-    margin: 1rem 0;
-    padding: 1rem 0;
+    margin: 1rem 0 0;
+    padding: 1.5rem 0;
     border-top: 1px solid #eee;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
+.team-links a {
+    color: #bfbebe;
+    margin-right: 1rem;
+}
