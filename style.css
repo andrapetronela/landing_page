@@ -339,7 +339,8 @@ h1 span {
 }
 
 #screenshots-heading,
-#features-heading {
+#features-heading,
+#team-heading {
     text-align: center;
 }
 
@@ -459,3 +460,65 @@ h1 span {
 .features-card h4 {
     margin-top: 1.5rem;
 }
+
+#team {
+    background-image: linear-gradient(90deg, #4776e6 0%, #8E54E9 100%), url("images/team-bck.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+#team-heading h2 {
+    padding: 5rem 0 1rem;
+    text-transform: uppercase;
+}
+
+#team-heading p {
+    max-width: 50vw;
+    margin: 1rem auto 5rem;
+}
+
+#team-photos-container {
+    max-width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.team-card {
+    max-width: 18vw;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    color: var(--normal-text);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team-img-container {
+    height: 80%
+}
+
+.team-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(1);
+}
+
+.team-card h4 {
+    text-transform: uppercase;
+    color: var(--heading-text);
+    margin: 1rem 0;
+}
+
+.team-links {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
