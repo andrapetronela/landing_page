@@ -59,22 +59,23 @@ nav {
 #navbar a:visited {
     text-decoration: none;
     color: #fff;
-    transition: transform 5s;
+    transition: all .5s;
 }
 
 #navbar a::after {
     content: '';
     height: 2px;
-    width: 100%;
     background: #fff;
     display: block;
     transform: scale(0);
+    transition: transform .4s,
+                    width .4s cubic-bezier(1, 0, 0, 1) .2s,
+                    background-color .1s;
 }
 
 #navbar a:first-of-type::after {
     content: '';
     height: 2px;
-    width: 100%;
     background: #fff;
     display: block;
     transform: scale(1);
@@ -83,9 +84,11 @@ nav {
 #navbar a:hover::after,
 #navbar a:active::after {
     transform: scale(1);
+    width: 100%;
 }
 
-#cta-nav-button {
+#cta-nav-button:link,
+#cta-nav-button:visited {
     grid-column: 4/6;
     text-align: center;
     align-content: center;
@@ -95,6 +98,14 @@ nav {
     padding: .5rem 2rem;
     margin: auto;
     color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#cta-nav-button:hover,
+#cta-nav-button:active {
+    background: linear-gradient(0deg, var(--purple) 0%, #8E54E9 100%);
+    border: 2px solid #8E54E9;
 }
 
 #hero-text {
@@ -536,7 +547,11 @@ h1 span {
 /* ************* PRICE SECTION ******************** */
 
 #price-heading {
-    margin-top: 5rem;
+    margin: 5rem;
+}
+
+#price-heading img {
+    margin: 1rem 0 0; 
 }
 
 #price-cards-container {
