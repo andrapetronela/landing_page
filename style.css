@@ -569,6 +569,16 @@ h1 span {
     letter-spacing: 3px;
 }
 
+.card-price h4 {
+    color: #8E54E9;
+    font-size: 1.5rem;
+}
+
+.card-price span {
+    font-size: 5rem;
+    vertical-align: middle;
+}
+
 .card-price i {
     color: #8E54E9;
     font-size: 6rem;
@@ -600,6 +610,10 @@ h1 span {
     overflow: hidden;
 }
 
+#top-price h4 {
+    color: var(--purple);
+}
+
 #top-price:after {
     content: 'Best value';
     display: inline-block;
@@ -620,6 +634,7 @@ h1 span {
 #top-price a:link,
 #top-price a:visited {
     color: var(--purple);
+    border: 2px solid var(--purple);
 }
 
 #top-price a:hover,
