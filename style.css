@@ -338,16 +338,19 @@ h1 span {
     color: rgba(255, 255, 255, 0.77);
 }
 
-#screenshots-heading {
+#screenshots-heading,
+#features-heading {
     text-align: center;
 }
 
-#screenshots-heading h2 {
+#screenshots-heading h2,
+#features h2 {
     margin: 5rem 0 1rem;
     text-transform: uppercase;
 }
 
-#screenshots-heading p {
+#screenshots-heading p,
+#features p{
     max-width: 50vw;
     margin: 1rem auto 5rem;
 }
@@ -417,3 +420,4 @@ h1 span {
     margin: 2rem 0 .5rem;
     font-weight: 400;
 }
+
