@@ -421,3 +421,15 @@ h1 span {
     font-weight: 400;
 }
 
+#features-card-container {
+    max-width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
