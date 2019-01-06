@@ -379,3 +379,10 @@ h1 span {
 #screenshots-links a:first-child:active {
     color: var(--normal-text);
 }
+
+#screenshots-images {
+    max-width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
