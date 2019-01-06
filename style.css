@@ -387,3 +387,12 @@ h1 span {
     display: flex;
     justify-content: space-between;
 }
+
+#video-section {
+    height: 100vh;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.87), rgba(128, 0, 128, 0.55)), url("images/bridge.jpg");
+    background-position: center;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+}
