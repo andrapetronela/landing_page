@@ -551,6 +551,7 @@ h1 span {
     width: 30%;
     text-align: center;
     padding: 2rem 0;
+    margin: .5rem 0;
 }
 
 .text-price-card {
@@ -583,6 +584,13 @@ h1 span {
     text-decoration: none;
     color: #8e54e9;
     font-weight: 600;
+}
+
+#top-price {
+    transform: scaleY(1.02);
+    padding: 2.5rem 0 0;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
+    margin: 0;
 }
 
 #top-price a:link,
