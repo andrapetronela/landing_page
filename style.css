@@ -344,6 +344,7 @@ h1 span {
 
 #screenshots-heading h2 {
     margin: 5rem 0 1rem;
+    text-transform: uppercase;
 }
 
 #screenshots-heading p {
@@ -382,7 +383,7 @@ h1 span {
 
 #screenshots-images {
     max-width: 85vw;
-    margin: 0 auto;
+    margin: 0 auto 5rem;
     display: flex;
     justify-content: space-between;
 }
