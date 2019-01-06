@@ -678,13 +678,16 @@ h1 span {
 #posts-cards-container {
     display: flex;
     justify-content: space-between;
-    max-width: 80vw;
-    margin: auto;
+    max-width: 85vw;
+    margin: 0 auto 7rem;
 }
 
 .card-posts {
-    max-width: 30%;
+    max-width: 32%;
     overflow: hidden;
+    background: rgba(238, 238, 238, 0.38);
+    position: relative;
+    padding-bottom: 2rem;
 }
 
 .card-post-img-container img {
@@ -692,4 +695,41 @@ h1 span {
     height: auto;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 68%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 68%);
+}
+
+.card-posts h4 {
+    text-transform: uppercase;
+    color: var(--heading-text);
+    text-align: left;
+    margin: 1rem 0;
+    padding: 1rem 1rem 0;
+}
+
+.date {
+    text-align: left;
+    color: var(--light-text);
+    font-weight: 700;
+    padding: 0 1rem 1rem;
+}
+
+.posts-main-text {
+    padding: 0 1rem 1rem;
+    text-align: left;
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.card-posts a:link,
+.card-posts a:visited {
+    text-align: left;
+    text-decoration: none;
+    color: var(--purple);
+    font-weight: 600;
+    padding-bottom: 2rem;
+    transition: all .3s;
+}
+
+.card-posts a:hover,
+.card-posts a:active {
+    color: #8E54E9;
 }
