@@ -579,11 +579,17 @@ h1 span {
 .card-price a:visited {
     padding: .7rem 2rem;
     border: 2px solid #8e54e9;
-    background: linear-gradient(0deg, 0%,#8e54e9 100%);
     border-radius: 100px;
     text-decoration: none;
     color: #8e54e9;
     font-weight: 600;
+    transition: all .5s;
+}
+
+.card-price a:hover,
+.card-price a:active {
+    background: linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+    color: #fff;
 }
 
 #top-price {
@@ -614,6 +620,11 @@ h1 span {
 #top-price a:link,
 #top-price a:visited {
     color: var(--purple);
+}
+
+#top-price a:hover,
+#top-price a:active {
+    color: #fff;
 }
 
 #top-price h2 {
