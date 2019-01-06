@@ -540,8 +540,60 @@ h1 span {
 }
 
 #price-cards-container {
-    max-width: 80vw;
+    max-width: 90vw;
     margin: 2rem auto;
     display: flex;
     justify-content: space-around;
+}
+
+.card-price {
+    border: 1px solid #eee;
+    width: 30%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.text-price-card {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    color: var(--light-text);
+    line-height: 2.5;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.card-price h2 {
+    color: #8E54E9;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card-price i {
+    color: #8E54E9;
+    font-size: 6rem;
+    margin: 2rem 0 1rem;
+}
+
+.card-price a:link,
+.card-price a:visited {
+    padding: .7rem 2rem;
+    border: 2px solid #8e54e9;
+    background: linear-gradient(0deg, 0%,#8e54e9 100%);
+    border-radius: 100px;
+    text-decoration: none;
+    color: #8e54e9;
+    font-weight: 600;
+}
+
+#top-price a:link,
+#top-price a:visited {
+    color: var(--purple);
+}
+
+#top-price h2 {
+    color: var(--purple);
+}
+
+#top-price i {
+    color: var(--purple);
 }
