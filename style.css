@@ -394,5 +394,26 @@ h1 span {
     background-position: center;
     background-size: cover;
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+    position: relative;
+}
+
+#video-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+#video-wrapper i {
+    font-size: 6rem;
+    color: #fff;
+}
+
+#video-wrapper h2 {
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem;
+    font-weight: 400;
 }
