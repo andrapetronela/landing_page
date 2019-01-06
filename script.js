@@ -1,4 +1,4 @@
-let nav = document.getElementById('nav');
+const nav = document.getElementById('nav');
 
 const scroll = () => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
