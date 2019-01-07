@@ -734,6 +734,7 @@ h1 span {
 #link_to_blog:link,
 #link_to_blog:visited {
     text-decoration: none;
+    text-transform: uppercase;
     border: 2px solid #8E54E9;
     border-radius: 100px;
     padding: .5rem 2rem;
@@ -747,3 +748,19 @@ h1 span {
     background: linear-gradient(0deg, var(--purple) 0%, #8E54E9 100%);
     color: #fff;
 }
+
+/* ********** get app *********************/
+
+#get_app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+}
+
+#get_app_img img {
+    width: 100%;
+    height: auto;
+}
+
+
+
