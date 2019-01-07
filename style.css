@@ -900,7 +900,7 @@ iframe {
     padding: 5rem 1rem 0;    
 }
 
-#heading-card-map {
+#heading-map {
     text-transform: uppercase;
 }
 
@@ -909,16 +909,31 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 2rem;
 }
 
 #form-map input {
     padding: .5rem;
     margin-bottom: 1.5rem;
-    
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.26);
+    font-family: inherit;
 }
 
 #form-map textarea {
     height: 80%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    font-family: Lato;
+    resize: none;
+    padding: .5rem;
+    font-family: inherit;
 }
 
 #button-map-form  {
