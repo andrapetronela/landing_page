@@ -7,7 +7,7 @@ const scroll = () => {
         ctaBtn.style.border = '2px solid #ffffff';
     } else {
         nav.style.backgroundImage = 'linear-gradient(90deg, transparent 0%, transparent 100%)';
-        ctaBtn.style.border = '2px solid #8E54E9';
+        ctaBtn.style.border = '2px solid #4776e6';
     }
 }
 

@@ -93,7 +93,7 @@ nav {
     text-align: center;
     align-content: center;
     font-weight: 600;
-    border: 2px solid #8E54E9;
+    border: 2px solid var(--purple);
     border-radius: 100px;
     padding: .5rem 2rem;
     margin: auto;
