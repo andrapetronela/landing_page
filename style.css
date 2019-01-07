@@ -804,5 +804,22 @@ h1 span {
     
 }
 
+/******************* maps section *********************/ 
+
+#map_cards_container {
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
 
 
