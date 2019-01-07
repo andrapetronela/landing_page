@@ -958,11 +958,70 @@ iframe {
     color: #fff;
 }
 
+footer {
+    background-image: linear-gradient(rgba(128, 0, 128, 0.76), rgba(71, 118, 230, 0.78)), url(images/team-bck.jpg);
+    padding: 10rem;
+    color: #fff;
+}
 
+#footer-heading {
+    text-align: center;
+    padding: 2rem 0;
+}
 
+#footer-heading img {
+    margin: 1rem 0;
+}
 
+#footer-heading p {
+    max-width: 50vw;
+    margin: auto;
+}
 
+#footer-buttons {
+    text-align: center;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
 
+#footer-buttons input {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 100px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.46);
+    outline: none;
+}
+
+#footer-buttons input::placeholder {
+    color: rgba(0, 0, 0, 0.64);
+}
+
+#footer-buttons a:link,
+#footer-buttons a:visited {
+    text-decoration: none;
+    background: #fff;
+    padding:  1rem;
+    border-radius: 100px;
+    margin-left: -5rem;
+    text-transform: uppercase;
+    color: #8E54E9;
+    font-weight: 600;
+    outline: none;
+    transition: all .3s;
+}
+
+#footer-buttons a:hover,
+#footer-buttons a:active {
+    background: #8E54E9;
+    color: #fff;
+}
+
+#footer-buttons i {
+    margin-left: 1rem;
+    
+}
 
 
 
