@@ -753,8 +753,11 @@ h1 span {
 
 #get_app {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
     padding: 5rem;
+    background-image: url(images/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #get_app_heading {
@@ -783,6 +786,7 @@ h1 span {
 #get_app_download img:hover {
     background: linear-gradient(0deg, var(--purple) 0%, #8E54E9 100%);
 }
+
 
 #get_app_img img {
     width: 100%;
