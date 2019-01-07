@@ -754,10 +754,15 @@ h1 span {
 #get_app {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 5rem;
+    align-content: center;
+    padding: 5rem 5rem 0;
     background-image: url(images/bg-1.jpg);
     background-size: cover;
     background-position: center;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5rem;
 }
 
 #get_app_heading {
@@ -787,10 +792,16 @@ h1 span {
     background: linear-gradient(0deg, var(--purple) 0%, #8E54E9 100%);
 }
 
+#get_app_img {
+    position: relative;
+    max-width: 30vw;
+    margin: 13rem 0 0 0;
+}
 
 #get_app_img img {
-    width: 100%;
+    max-width: 600px;
     height: auto;
+    
 }
 
 
