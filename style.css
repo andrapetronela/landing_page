@@ -664,6 +664,9 @@ h1 span {
 
 
 /*  ****************** Latest posts **************/ 
+#latest-posts {
+    padding-bottom: 5rem;
+}
 
 #posts-heading p {
     max-width: 50vw;
@@ -682,7 +685,6 @@ h1 span {
     overflow: hidden;
     background: rgba(238, 238, 238, 0.38);
     position: relative;
-    padding-bottom: 2rem;
 }
 
 .card-post-img-container img {
@@ -731,12 +733,17 @@ h1 span {
 
 #link_to_blog:link,
 #link_to_blog:visited {
-    display: inline-block;
     text-decoration: none;
     border: 2px solid #8E54E9;
     border-radius: 100px;
     padding: .5rem 2rem;
     color: var(--purple);
     font-weight: 600;
-    margin-bottom: 7rem;
+    transition: all .5s;
+}
+
+#link_to_blog:hover,
+#link_to_blog:active {
+    background: linear-gradient(0deg, var(--purple) 0%, #8E54E9 100%);
+    color: #fff;
 }
