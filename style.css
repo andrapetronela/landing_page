@@ -808,8 +808,9 @@ h1 span {
 /******************* maps section *********************/ 
 #map-section {
     background-image: linear-gradient(rgba(71, 118, 230, 0.78) 0%, rgba(128, 0, 128, 0.76)100%), url(images/map.jpg);
-    height: 90vh;
-    padding-top: 7rem 0;
+    padding-top: 7rem;
+    background-position: top;
+    background-size: cover;
 }
 
 #map-heading {
@@ -830,10 +831,7 @@ h1 span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
-}
-
-.map_card {
-/*    padding: 5rem 0;*/
+    padding:  0 0 5rem;
 }
 
 .map_card:first-of-type {
