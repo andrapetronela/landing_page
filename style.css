@@ -408,14 +408,14 @@ h1 span {
 }
 
 #screenshots-images {
-    max-width: 85vw;
+    max-width: 90vw;
     margin: 0 auto 7rem;
     display: flex;
     justify-content: space-between;
 }
 
 #screenshots-images img {
-    max-width: 250px;
+    max-width: 100%;
     height: auto;
 }
 
