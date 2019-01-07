@@ -17,7 +17,7 @@ body {
 }
 
 #hero_page {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.28)), url(images/1-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.69)), url(images/hero-bck.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
