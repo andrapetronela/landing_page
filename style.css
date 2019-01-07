@@ -348,7 +348,8 @@ h1 span {
 #features-heading,
 #team-heading,
 #price-heading,
-#latest-posts {
+#latest-posts, 
+#map-heading {
     text-align: center;
 }
 
@@ -361,7 +362,8 @@ h1 span {
 
 #screenshots-heading p, 
 #features-text,
-#price-heading p {
+#price-heading p,
+#map-heading p {
     max-width: 50vw;
     margin: 1rem auto 5rem;
 }
@@ -762,7 +764,6 @@ h1 span {
     height: 80vh;
     position: relative;
     overflow: hidden;
-    margin-bottom: 5rem;
 }
 
 #get_app_heading {
@@ -805,14 +806,93 @@ h1 span {
 }
 
 /******************* maps section *********************/ 
+#map-section {
+    background-image: linear-gradient(rgba(71, 118, 230, 0.78) 0%, rgba(128, 0, 128, 0.76)100%), url(images/map.jpg);
+    height: 90vh;
+    padding-top: 7rem 0;
+}
+
+#map-heading {
+    color: #fff;
+}
+
+#map-heading h2 {
+    text-transform: uppercase;
+}
+
+#map-heading img {
+    margin: 1rem 0;
+}
 
 #map_cards_container {
     max-width: 80vw;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.map_card {
+/*    padding: 5rem 0;*/
+}
+
+.map_card:first-of-type {
+    background: #fff;
+    color: var(--normal-text);
+    padding: 5rem 2rem;
+}
+
+.map_card:first-of-type h2 {
+    color: var(--heading-text);
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#heading-card-map p {
+    font-size: .9rem;
+    margin-top: 2rem;
+}
+
+#heading-card-map {
+    margin-bottom: 2rem;
+}
+
+#location-map h3 {
+    color: var(--purple);
+    margin: 1rem 0;
+}
+
+#location-map p {
+    font-size: .9rem;
 }
 
 
+#icons-map i {
+    margin: 1rem 1rem 0 0;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+#icons-map i:first-of-type {
+    padding: .5rem .8rem;
+    background: #3b5998 ;
+    color: #fff;
+}
+
+#icons-map i:nth-child(2) {
+    background: #55acee;
+    color: #fff;
+}
+
+#icons-map i:nth-child(3) {
+    background: #bd081c;
+    color: #fff;  
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
 
 
 
