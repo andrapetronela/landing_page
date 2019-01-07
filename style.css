@@ -887,10 +887,70 @@ h1 span {
     color: #fff;  
 }
 
+.map_card:nth-last-of-type(1) {
+    background: var(--purple);
+}
+
 iframe {
     height: 100%;
     width: 100%;
 }
+
+.map_card:nth-child(3) {
+    padding: 5rem 1rem 0;    
+}
+
+#heading-card-map {
+    text-transform: uppercase;
+}
+
+#form-map {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#form-map input {
+    padding: .5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+#form-map textarea {
+    height: 80%;
+}
+
+#button-map-form  {
+    margin: 2rem auto;
+}
+
+#button-map-form a:link,
+#button-map-form a:visited {
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    background: #fff;
+    color: var(--purple);
+    font-weight: 600;
+    padding: .5rem 1rem;
+    transition: all .3s;
+}
+
+#button-map-form a:hover,
+#button-map-form a:active {
+    background: var(--purple);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
