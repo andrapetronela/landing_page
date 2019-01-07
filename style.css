@@ -728,3 +728,15 @@ h1 span {
 .card-posts a:active {
     color: #8E54E9;
 }
+
+#link_to_blog:link,
+#link_to_blog:visited {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #8E54E9;
+    border-radius: 100px;
+    padding: .5rem 2rem;
+    color: var(--purple);
+    font-weight: 600;
+    margin-bottom: 7rem;
+}
