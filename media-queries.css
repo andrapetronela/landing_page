@@ -32,6 +32,19 @@
     #map_cards_container {
         max-width: 90vw;
     }
+    #footer-buttons {
+        width: 70vw;
+    }
+    #footer-buttons input {
+        padding: 0 1rem;
+        width: 100%;
+        height: 3rem;
+    }
+    #footer-buttons a:link,
+    #footer-buttons a:visited {
+        height: 3rem;
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 950px) {
@@ -45,14 +58,10 @@
         grid-gap: 1rem;
         
     }
-    
     .team-card {
         max-width: 50vw;
     }
-    
-    .team-img-container {
-        height: 30rem;    
-    }
+   
     .team-img-container img {
         width: 100%;
     }
@@ -122,6 +131,22 @@
     }
     .map_card {
         height: 80vh;
+    }
+    #screenshots-heading p, 
+    #features-text,
+    #price-heading p,
+    #map-heading p {
+        max-width: 70vw;
+        margin: 1rem auto 3rem;
+    }
+    #footer-heading p,
+    #team-heading p,
+    #posts-heading p {
+        max-width: 70vw;
+    }     
+    #how-it-works-text {
+        padding: 5rem 0;
+        width: 70vw;
     }
 }
 
