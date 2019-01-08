@@ -129,9 +129,11 @@
         grid-template-columns: 1fr;
         grid-gap: 1rem;
     }
-    .map_card {
+    .map_card:nth-child(2),
+    .map_card:nth-child(3) {
         height: 80vh;
     }
+
     #screenshots-heading p, 
     #features-text,
     #price-heading p,
