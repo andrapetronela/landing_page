@@ -34,6 +34,30 @@
     }
 }
 
+@media only screen and (max-width: 950px) {
+    #features-card-container {
+        max-width: 70vw;
+        flex-direction: column;
+    }
+    #team-photos-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+
+    }
+    
+    .team-card {
+        max-width: 50vw;
+    }
+    
+    .team-img-container {
+        height: 30rem;    
+    }
+    .team-img-container img {
+        width: 25rem;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     nav {
         grid-template-columns: repeat(6 1fr) 2fr;
