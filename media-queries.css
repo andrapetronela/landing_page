@@ -74,6 +74,18 @@
         box-shadow: none;
         padding: 2rem;
     }
+    
+    #icons-overview-section {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    .icon-card {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 900px) {
