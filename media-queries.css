@@ -19,4 +19,17 @@
         margin-left: 1rem;
         justify-content: space-between;
     }
+    
+    #screenshots-images img {
+        max-width: 80%;
+    }
+    .team-card h4 {
+        margin: 1rem 0 .2rem;
+    }
+    .team-card p {
+        margin-bottom: 1rem;
+    }
+    #map_cards_container {
+        max-width: 90vw;
+    }
 }
