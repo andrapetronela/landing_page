@@ -86,6 +86,10 @@
     .icon-card {
         width: 100%;
     }
+    
+    #map_cards_container {
+        max-width: 95vw;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -110,6 +114,15 @@
     .phone-text p {
         max-width: 100%;
     }
+    #map_cards_container {
+        max-width: 50vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+    .map_card {
+        height: 80vh;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -125,7 +138,6 @@
         max-width: 100%;
         margin-bottom: 2rem;
     }
-    
 }
 
 @media only screen and (max-width: 670px) {
