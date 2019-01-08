@@ -4,7 +4,7 @@
     }
     #hero-text {
         margin-top: 8rem;
-        padding: 0 0 0rem 2rem;
+        padding: 0 .5rem 0rem 2rem;
     }
     #hero-photos {
         right: 2rem;
@@ -110,6 +110,22 @@
     .phone-text p {
         max-width: 100%;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    #hero-photos {
+        right: 0rem;
+    }
+    #posts-cards-container {
+        flex-direction: column;
+        max-width: 80vw;
+        margin: 0 auto 2rem;
+    }
+    .card-posts {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    
 }
 
 @media only screen and (max-width: 670px) {
