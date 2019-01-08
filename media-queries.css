@@ -1,16 +1,16 @@
 @media only screen and (max-width: 1050px) {
     #hero_page {
-        grid-template-columns: 1.5fr .7fr;
+        grid-template-columns: 2fr .5fr;
     }
     #hero-text {
         margin-top: 8rem;
-        padding: 0 .5rem 0rem 2rem;
+        padding: 0 4rem 0rem 2rem;
     }
     #hero-photos {
         right: 2rem;
     }
     #logo {
-        grid-column: 1/2;
+        grid-column: 1 / 2;
         margin-left: 2rem;
     }
 
@@ -156,6 +156,14 @@
     #hero-photos {
         right: 0rem;
     }
+
+    #navbar {
+        grid-column: 2 / 7;
+    }
+    #cta-nav-button:link,
+    #cta-nav-button:visited {
+        display: none;
+    }
     #posts-cards-container {
         flex-direction: column;
         max-width: 80vw;
@@ -174,6 +182,41 @@
 
     .phone-text p {
         max-width: 100%;
+    }
+    #hero-text {
+        padding: 0 4rem 0rem 1rem;
+    }
+    #hero-photos {
+        right: 0rem;
+        top: 16rem;
+    }
+    #phone-small {
+        height: 62%;
+    }
+
+    #phone-big {
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        display: none;
+    }
+    #hero_page {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    }
+    #navbar {
+        grid-column: 1 / 6;
+        margin: 0;
+    }
+    #hero-text {
+        margin-top: 5rem;
+    }
+    .cta-btn {
+        padding: .8rem .5rem;
+        margin: 0 .5rem;
     }
 }
 
