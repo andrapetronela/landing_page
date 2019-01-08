@@ -692,15 +692,16 @@ h1 span {
 #posts-cards-container {
     display: flex;
     justify-content: space-between;
-    max-width: 85vw;
+    max-width: 95vw;
     margin: 0 auto 7rem;
 }
 
 .card-posts {
-    max-width: 32%;
+    max-width: 30vw;
     overflow: hidden;
     background: rgba(238, 238, 238, 0.38);
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .card-post-img-container img {
