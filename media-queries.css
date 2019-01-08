@@ -224,6 +224,13 @@
         padding: .8rem .5rem;
         margin: 0 .5rem;
     }
+    #features-card-container {
+        max-width: 90vw;
+    }
+    
+    .card-text-container {
+        margin: 1rem 0;
+    }
     #footer-buttons {
         width: 50vw;
         flex-direction: column;
@@ -236,7 +243,11 @@
     }
 }
 
-
+@media only screen and (max-width: 500px) {
+    #features-card-container {
+        max-width: 97vw;
+    }
+}
 
 
 
