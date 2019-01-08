@@ -188,7 +188,7 @@
     }
     #hero-photos {
         right: 0rem;
-        top: 16rem;
+        top: 17rem;
     }
     #phone-small {
         height: 62%;
@@ -203,20 +203,36 @@
     #logo {
         display: none;
     }
+    nav {
+        grid-template-columns: repeat(6, 1fr);
+    }
     #hero_page {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
         clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     }
     #navbar {
-        grid-column: 1 / 6;
+        grid-column: 1 / 7;
         margin: 0;
     }
     #hero-text {
-        margin-top: 5rem;
+        margin-top: 7rem;
+    }
+    #hero-text h1 {
+        font-size: 2.5rem;
     }
     .cta-btn {
         padding: .8rem .5rem;
         margin: 0 .5rem;
+    }
+    #footer-buttons {
+        width: 50vw;
+        flex-direction: column;
+        
+    }
+    #footer-buttons a:link,
+    #footer-buttons a:visited {
+        width: 100%;
+        margin-left: 0;
     }
 }
 
