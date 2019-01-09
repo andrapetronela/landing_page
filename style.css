@@ -131,7 +131,8 @@ h1 span {
     text-align: left;
 }
 
-.cta-btn {
+.cta-btn:link,
+.cta-btn:visited {
     background: transparent;
     border: 2px solid #fff;
     border-radius: 100px;
@@ -143,9 +144,11 @@ h1 span {
     margin: 0 1rem;
     transition: all .3s;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.cta-btn:hover {
+.cta-btn:hover,
+.cta-btn:active {
     background: #fff;
     color: var(--heading-text);
 }
