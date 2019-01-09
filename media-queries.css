@@ -200,7 +200,14 @@
     #team-photos-container {
         display: flex;
         flex-direction: column;
-        
+    }
+    #screenshots-links {
+        margin: 0 auto 3rem;
+    }
+
+    #screenshots-links a:link,
+    #screenshots-links a:visited {
+        margin: 0 2rem 3rem 0;
     }
     .team-card {
         max-width: 70vw;
@@ -270,6 +277,11 @@
     .cta-btn {
         padding: .5rem;
         margin: 0;
+    }
+    
+    #screenshots-links a:link,
+    #screenshots-links a:visited {
+        margin-right: .5rem;
     }
     #features-card-container {
         max-width: 90vw;
@@ -344,7 +356,14 @@
         margin: 1rem;
     }
     
+    #hero-text {
+        padding: 0 1rem 0rem 1rem;
+    }
     
+    .cta-btn {
+        padding: .5rem .4rem;
+        margin: 0;
+    }
 }
 
 
