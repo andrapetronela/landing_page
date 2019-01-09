@@ -213,6 +213,9 @@
     #get_app {
         padding: 3rem 1rem 0;
     }
+    #map_cards_container {
+        max-width: 70vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -308,6 +311,9 @@
     }
     #price-cards-container {
         max-width: 90vw;
+    }
+    #map_cards_container {
+        max-width: 85vw;
     }
 }
 
