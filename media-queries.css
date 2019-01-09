@@ -285,15 +285,20 @@
     .phone-text hr {
         display: none;
     }
+    footer {
+        padding: 5rem 1rem;
+    }
+    #footer-heading p {
+        max-width: 100%;
+    }
     #footer-buttons {
-        width: 50vw;
+        width: 60vw;
         flex-direction: column;
-        
+        margin: 1rem auto 2rem;
     }
     #footer-buttons a:link,
     #footer-buttons a:visited {
-        width: 100%;
-        margin-left: 0;
+        margin: 1rem auto 0;
     }
 }
 

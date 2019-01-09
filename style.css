@@ -972,7 +972,7 @@ iframe {
 
 footer {
     background-image: linear-gradient(rgba(128, 0, 128, 0.76), rgba(71, 118, 230, 0.78)), url(images/team-bck.jpg);
-    padding: 10rem;
+    padding: 10rem 0;
     color: #fff;
 }
 
