@@ -11,5 +11,42 @@ const scroll = () => {
     }
 }
 
-window.onscroll = scroll;
+if (window.innerWidth > 600) {
+    window.onscroll = scroll;
+}
+
+
+if (window.innerWidth < 600) {
+    const menu = document.createElement('div');
+    const text = document.createTextNode('MENU');
+   menu.appendChild(text);
+
+    document.getElementById('container').appendChild(menu);
+    
+    menu.style.position = 'fixed';
+    menu.style.top = '0';
+    menu.style.right = '0';
+    menu.style.background = 'rgba(0, 0, 0, 0.63)';
+    menu.style.border = '2px solid #ffffff';
+    menu.style.color = '#ffffff';
+    menu.style.padding = '1rem';
+    menu.style.zIndex = '5555';
+    nav.style.opacity = '0';
+    
+    function toggleNav() {
+        if (nav.style.opacity === '0') {
+            nav.style.opacity = '1';
+        } else
+            nav.style.opacity = '0';
+    }
+    menu.addEventListener('click', toggleNav);
+   
+    const link = document.getElementsByClassName('nav-link');
+    
+    for (let i = 0; i < link.length; i++) {
+        link[i].addEventListener('click', () => {
+            nav.style.opacity = '0';
+        });
+    }
+}
     

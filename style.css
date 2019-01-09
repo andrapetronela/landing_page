@@ -29,7 +29,6 @@ body {
 }
 
 nav {
-    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: .5fr 1fr 2fr 1fr .5fr;
     align-items: center;
@@ -38,7 +37,7 @@ nav {
     right: 0;
     top: 0;
     width: 100%;
-    z-index: 5550;
+    z-index: 50;
     position: fixed;
 }
 
