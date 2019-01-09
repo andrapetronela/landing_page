@@ -487,6 +487,7 @@ h1 span {
 }
 
 #team {
+    background: rgba(71, 118, 230, 0.85);
     background-image: linear-gradient(90deg, rgba(71, 118, 230, 0.85) 0%, rgba(142, 84, 233, 0.81) 100%), url("images/team-bck.jpg");
     background-size: cover;
     background-position: bottom;

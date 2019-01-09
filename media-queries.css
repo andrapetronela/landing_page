@@ -85,7 +85,7 @@
     }
     
     #icons-overview-section {
-        margin: 2rem auto;
+        margin: 0rem auto 1rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -94,8 +94,9 @@
     
     .icon-card {
         width: 100%;
+        padding: 1rem 0 0;
     }
-    
+        
     #map_cards_container {
         max-width: 95vw;
     }
