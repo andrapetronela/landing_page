@@ -464,8 +464,8 @@ h1 span {
 }
 
 .features-card img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     -webkit-clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
 }
