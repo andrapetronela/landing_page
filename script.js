@@ -24,12 +24,12 @@ if (window.innerWidth < 600) {
     document.getElementById('container').appendChild(menu);
     
     menu.style.position = 'fixed';
-    menu.style.top = '0';
-    menu.style.right = '0';
+    menu.style.top = '1rem';
+    menu.style.right = '1rem';
     menu.style.background = 'rgba(0, 0, 0, 0.63)';
     menu.style.border = '2px solid #ffffff';
     menu.style.color = '#ffffff';
-    menu.style.padding = '1rem';
+//    menu.style.padding = '1rem';
     menu.style.zIndex = '5555';
     nav.style.opacity = '0';
     

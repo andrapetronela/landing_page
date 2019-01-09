@@ -208,12 +208,8 @@
         display: flex;
         flex-direction: column;
         height: 10rem;
-        position: fixed;
-        right: 0;
-        top: 0;
         width: 100vw;
         height: 100%;
-        position: fixed;
         margin: 0;
         padding: 5rem 2rem;
         text-align: center;
@@ -263,6 +259,13 @@
     .card-text-container {
         margin: 1rem 0;
     }
+    
+    #container-phone-text {
+        flex-direction: column;
+    }
+    .phone-text hr {
+        display: none;
+    }
     #footer-buttons {
         width: 50vw;
         flex-direction: column;
@@ -279,7 +282,7 @@
     #features-card-container {
         max-width: 97vw;
     }
-    
+        
     #hero-text {
         grid-column: 1 / -1;
     }
