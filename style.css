@@ -336,7 +336,8 @@ h1 span {
 }
 
 .phone-text hr:first-of-type {
-    left: -40%;
+    left: -35%;
+    background: red;
 }
 
 .phone-text h3::after {
